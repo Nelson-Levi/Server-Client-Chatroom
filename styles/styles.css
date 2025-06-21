@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+body {
+  font-family: "Nunito Sans", Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom, #49264f, #241328);
+  min-height: 100vh;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.index-contents {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chatroom-contents {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+#messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  background-color: black;
+  color: #f2f2f2;
+  border-radius: 10px;
+  padding: 0.75rem 1em;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  width: 95%;
+  box-sizing: border-box;
+}
+
+#login-form {
+  display: flex;
+  position: sticky;
+}
+
+#input-form {
+  display: flex;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0;
+}
+
+input[type="text"] {
+  flex: 1;
+  background-color: black;
+  color: #f2f2f2;
+  border-radius: 10px;
+  padding: 0.75rem 1em;
+  font-size: 1rem;
+  border: none;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  background-color: rgba(0, 0, 0, 0.274);
+  color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1px;
+  font-size: 1.5rem;
+  width: fit-content;
+}
+
+.userMessage {
+  background-color: rgba(0, 0, 0, 0.274);
+  color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1px;
+  font-size: 1.5rem;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+img {
+  max-width: 90vh;
+  min-height: 60vh;
+  object-fit: cover;
+}
+
+figcaption {
+    padding-bottom: 1%;
+}
