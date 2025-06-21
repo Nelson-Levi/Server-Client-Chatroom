@@ -4,7 +4,7 @@ fileInput.addEventListener("change", handleFile);
 const form = document.getElementById("input-form");
 form.addEventListener("submit", sendMessage);
 
-let ws = new WebSocket("ws://10.15.30.20:8765");
+let ws = new WebSocket("ws://localhost:8765");
 
 if (!username) {
   alert("No username set. Redirecting to login.");

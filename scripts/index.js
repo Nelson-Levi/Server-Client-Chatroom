@@ -1,4 +1,4 @@
-let ws = new WebSocket("ws://10.15.30.20:8765")
+let ws = new WebSocket("ws://localhost:8765")
 // MAKE SURE YOU REFRESH AND FORCE ALL ASSETS TO RELOAD, WITH CTRL+SHIFT+R
 // Otherwise the browser loads a cached version, which will be incorrect
 // Use onopen to ensure the Websocket is open BEFORE you connect to it.
