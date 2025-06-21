@@ -1,7 +1,7 @@
 ## Overview
 
 **Project Title**:
-Online Chatroom
+Server-Client Online Chatroom
 
 **Project Description**:
 This project creates a webserver with Python, utilizing the websocket library. This server is locally hosted and can accept multiple clients. Clients can connect to the server and visit an online chatroom, where they can share messages and images. Messages are broadcasted to all connected clients. 
